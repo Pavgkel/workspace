@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=BLDC_control_motor.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\BLDC_control_motor -TD:\CoIDE\configuration\ProgramData\BLDC_control_motor/arm-gcc-link.ld -g">
+      <target file="BLDC_control_motor.elf" lastModified="1911dd1ec46">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="1907d8a7dbd"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="1907d8a7f85"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="1907d8a8077"/>
+         <source file="..\obj\main.o" lastModified="1911dd1e96b"/>
+         <source file="..\obj\stm32f30x_dma.o" lastModified="1907d8a8213"/>
+         <source file="..\obj\printf.o" lastModified="1907e371d65"/>
+         <source file="..\obj\stm32f30x_exti.o" lastModified="1907d8a830f"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="1907d8a840f"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="1907d8a850e"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="1907d8a87e1"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="1907d8a8850"/>
+         <source file="..\obj\stm32f30x_syscfg.o" lastModified="190827b5988"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="1907d8a899c"/>
+      </target>
+   </processor>
+</history>

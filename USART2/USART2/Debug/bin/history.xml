@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=USART2.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\USART2 -TD:\CoIDE\configuration\ProgramData\USART2/arm-gcc-link.ld -g">
+      <target file="USART2.elf" lastModified="1903e931eb3">
+         <source file="..\obj\main.o" lastModified="1903e931bf1"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="1903e8b7033"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="1903e8b709a"/>
+      </target>
+   </processor>
+</history>

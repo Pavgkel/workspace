@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=GyroScope.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\GyroScope -TD:\CoIDE\configuration\ProgramData\GyroScope/arm-gcc-link.ld -g">
+      <target file="GyroScope.elf" lastModified="1901afee4cc">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="1901afc405a"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="1901afc414a"/>
+         <source file="..\obj\main.o" lastModified="1901afee1de"/>
+         <source file="..\obj\stm32f30x_spi.o" lastModified="1901afc4357"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="1901afc442f"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="1901afc4510"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="1901afc4732"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="1901afc47a3"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\button -I..\..\..\workspace\button\cmsis_lib -I..\..\..\workspace\button\cmsis -I..\..\..\workspace -I..\..\..\workspace\button\semihosting -I..\..\..\workspace\button\cmsis_lib\include -I..\..\..\workspace\button\cmsis_boot">
+      <target file="syscalls.o" lastModified="18fb03250c2">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="18fb031dc4c"/>
+      </target>
+      <target file="printf.o" lastModified="18fb0324e9d">
+         <source file="..\..\..\stdio\printf.c" lastModified="18fb031b267"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="18fb0324fd0">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="18fb031b231"/>
+      </target>
+      <target file="semihosting.o" lastModified="18fb03249ba">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="18fb031b221"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\button -I..\..\..\workspace\button\cmsis_lib -I..\..\..\workspace\button\cmsis -I..\..\..\workspace -I..\..\..\workspace\button\cmsis_lib\include -I..\..\..\workspace\button\cmsis_boot">
+      <target file="startup_stm32f30x.o" lastModified="18fb0458652">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18fa0d958cf"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="18fb04582fd">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18fa0d958ac"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="18fb04583fa">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18fa0d96952"/>
+      </target>
+      <target file="main.o" lastModified="19001b09b98">
+         <source file="..\..\..\main.c" lastModified="19001b095c7"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="18fb04585e2">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18fa0d958fa"/>
+      </target>
+   </processor>
+</history>

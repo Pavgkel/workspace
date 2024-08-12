@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\GyroScope\cmsis_boot -I..\..\..\workspace\GyroScope\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\GyroScope -I..\..\..\workspace\GyroScope\cmsis_lib\include -I..\..\..\workspace\GyroScope\cmsis">
+      <target file="startup_stm32f30x.o" lastModified="1901afc47a3">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="1901ae7af66"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="1901afc414a">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="1901ae7bd39"/>
+      </target>
+      <target file="stm32f30x_misc.o" lastModified="1901afc4510">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="1901ae7eb29"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="1901afc442f">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="1901ae7af75"/>
+      </target>
+      <target file="stm32f30x_tim.o" lastModified="1901afc4732">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="1901ae7f6b3"/>
+      </target>
+      <target file="stm32f30x_spi.o" lastModified="1901afc4357">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="1901ae802f2"/>
+      </target>
+      <target file="main.o" lastModified="1901afee1de">
+         <source file="..\..\..\main.c" lastModified="1901afedb2b"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="1901afc405a">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="1901ae7af50"/>
+      </target>
+   </processor>
+</history>

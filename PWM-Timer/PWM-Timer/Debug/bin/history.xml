@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=PWM-Timer.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\PWM-Timer -TD:\CoIDE\configuration\ProgramData\PWM-Timer/arm-gcc-link.ld -g">
+      <target file="PWM-Timer.elf" lastModified="1907d9a088f">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="19073f2121a"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="19073f21309"/>
+         <source file="..\obj\main.o" lastModified="19073f256c3"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="19073f214b7"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="19073f2158e"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="19073f21798"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="19073f21800"/>
+      </target>
+   </processor>
+</history>

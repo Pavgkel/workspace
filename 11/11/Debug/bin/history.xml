@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=11.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\11 -TD:\CoIDE\configuration\ProgramData\11/arm-gcc-link.ld -g">
+      <target file="11.elf" lastModified="1907e3483dc">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1907e1f8ed0"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1907e1f8fbb"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1907e1f9087"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1907e1f91ab"/>
+         <source file="..\obj\main.o" lastModified="1907e34247d"/>
+         <source file="..\obj\printf.o" lastModified="1907e348100"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1907e1f9430"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="1907e2162b2"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1907e1f954e"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1907e1f9640"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1907e1f9717"/>
+         <source file="..\obj\misc.o" lastModified="1907e1f97ea"/>
+      </target>
+   </processor>
+</history>

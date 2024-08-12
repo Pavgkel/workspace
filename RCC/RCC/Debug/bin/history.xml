@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=RCC.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\RCC -TD:\CoIDE\configuration\ProgramData\RCC/arm-gcc-link.ld -g">
+      <target file="RCC.elf" lastModified="19073f3da41">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18fd27546ef"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18fd27547f1"/>
+         <source file="..\obj\main.o" lastModified="18fd28571d2"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18fd27549a8"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18fd2754a15"/>
+      </target>
+   </processor>
+</history>

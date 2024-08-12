@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\Semihosting\cmsis -I..\..\..\workspace\Semihosting\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\Semihosting -I..\..\..\workspace\Semihosting\Semihosting">
+      <target file="startup_stm32f30x.o" lastModified="18fae961a5e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18fae909c6f"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="18fae9618e4">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18fae909c79"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="18fae96190d">
+         <source file="..\..\sh_cmd.s" lastModified="18fae90e749"/>
+      </target>
+      <target file="printf.o" lastModified="18fae961817">
+         <source file="..\..\..\stdio\printf.c" lastModified="18fae90e7b1"/>
+      </target>
+      <target file="syscalls.o" lastModified="18fae9619f8">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="18fae90e7d0"/>
+      </target>
+      <target file="main.o" lastModified="18fae9616ba">
+         <source file="..\..\..\main.c" lastModified="18fae95a81d"/>
+      </target>
+      <target file="semihosting.o" lastModified="18fae9615c6">
+         <source file="..\..\semihosting.c" lastModified="18fae90e744"/>
+      </target>
+   </processor>
+</history>

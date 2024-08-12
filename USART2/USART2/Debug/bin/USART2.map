@@ -1,0 +1,331 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+                              ..\obj\main.o (__aeabi_ui2d)
+d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+                              ..\obj\main.o (__aeabi_dmul)
+d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+                              ..\obj\main.o (__aeabi_d2uiz)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\main.o
+ .data          0x00000000        0x0 ..\obj\main.o
+ .text          0x00000000        0x0 ..\obj\system_stm32f30x_temp.o
+ .data          0x00000000       0x14 ..\obj\system_stm32f30x_temp.o
+ .bss           0x00000000        0x0 ..\obj\system_stm32f30x_temp.o
+ .text.SystemCoreClockUpdate1
+                0x00000000       0xd4 ..\obj\system_stm32f30x_temp.o
+ .text          0x00000000       0x14 ..\obj\startup_stm32f30x.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32f30x.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32f30x.o
+ .data          0x00000000        0x0 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x00000000        0x0 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00040000         xr
+ram              0x20000000         0x0000a000         xrw
+ram1             0x10000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x2000a000                _eram = 0x2000a000
+
+.text           0x08000000      0xc9c
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f30x.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text._delay   0x08000188       0x50 ..\obj\main.o
+                0x08000188                _delay
+ .text.Send     0x080001d8       0x40 ..\obj\main.o
+                0x080001d8                Send
+ .text.USART2_IRQHandler
+                0x08000218       0x34 ..\obj\main.o
+                0x08000218                USART2_IRQHandler
+ .text.main     0x0800024c       0xd0 ..\obj\main.o
+                0x0800024c                main
+ .text.SystemInit1
+                0x0800031c       0x84 ..\obj\system_stm32f30x_temp.o
+                0x0800031c                SystemInit
+                0x0800031c                SystemInit1
+ .text.SetSysClock1
+                0x080003a0       0xe0 ..\obj\system_stm32f30x_temp.o
+                0x080003a0                SetSysClock
+ .text.Reset_Handler
+                0x08000480       0x44 ..\obj\startup_stm32f30x.o
+                0x08000480                Reset_Handler
+ .text.Default_Handler
+                0x080004c4        0x2 ..\obj\startup_stm32f30x.o
+                0x080004c4                RTC_Alarm_IRQHandler
+                0x080004c4                TIM8_TRG_COM_IRQHandler
+                0x080004c4                TIM8_CC_IRQHandler
+                0x080004c4                DebugMon_Handler
+                0x080004c4                TIM1_CC_IRQHandler
+                0x080004c4                HardFault_Handler
+                0x080004c4                USB_HP_IRQHandler
+                0x080004c4                SysTick_Handler
+                0x080004c4                PVD_IRQHandler
+                0x080004c4                PendSV_Handler
+                0x080004c4                NMI_Handler
+                0x080004c4                EXTI3_IRQHandler
+                0x080004c4                EXTI0_IRQHandler
+                0x080004c4                I2C2_EV_IRQHandler
+                0x080004c4                FPU_IRQHandler
+                0x080004c4                EXTI2_TS_IRQHandler
+                0x080004c4                TIM1_UP_TIM16_IRQHandler
+                0x080004c4                UsageFault_Handler
+                0x080004c4                ADC1_2_IRQHandler
+                0x080004c4                SPI1_IRQHandler
+                0x080004c4                TIM6_DAC_IRQHandler
+                0x080004c4                TIM8_UP_IRQHandler
+                0x080004c4                DMA2_Channel2_IRQHandler
+                0x080004c4                DMA1_Channel4_IRQHandler
+                0x080004c4                USART3_IRQHandler
+                0x080004c4                DMA1_Channel7_IRQHandler
+                0x080004c4                CAN1_RX1_IRQHandler
+                0x080004c4                UART5_IRQHandler
+                0x080004c4                ADC3_IRQHandler
+                0x080004c4                TIM4_IRQHandler
+                0x080004c4                DMA2_Channel1_IRQHandler
+                0x080004c4                I2C1_EV_IRQHandler
+                0x080004c4                DMA1_Channel6_IRQHandler
+                0x080004c4                UART4_IRQHandler
+                0x080004c4                DMA2_Channel4_IRQHandler
+                0x080004c4                TIM3_IRQHandler
+                0x080004c4                RCC_IRQHandler
+                0x080004c4                DMA1_Channel1_IRQHandler
+                0x080004c4                Default_Handler
+                0x080004c4                USBWakeUp_RMP_IRQHandler
+                0x080004c4                EXTI15_10_IRQHandler
+                0x080004c4                TIM7_IRQHandler
+                0x080004c4                EXTI9_5_IRQHandler
+                0x080004c4                TAMPER_STAMP_IRQHandler
+                0x080004c4                RTC_WKUP_IRQHandler
+                0x080004c4                SPI2_IRQHandler
+                0x080004c4                MemManage_Handler
+                0x080004c4                SVC_Handler
+                0x080004c4                DMA2_Channel5_IRQHandler
+                0x080004c4                DMA1_Channel5_IRQHandler
+                0x080004c4                USB_LP_IRQHandler
+                0x080004c4                EXTI4_IRQHandler
+                0x080004c4                USB_LP_CAN1_RX0_IRQHandler
+                0x080004c4                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080004c4                USB_HP_CAN1_TX_IRQHandler
+                0x080004c4                DMA1_Channel3_IRQHandler
+                0x080004c4                ADC4_IRQHandler
+                0x080004c4                WWDG_IRQHandler
+                0x080004c4                TIM2_IRQHandler
+                0x080004c4                COMP7_IRQHandler
+                0x080004c4                COMP1_2_3_IRQHandler
+                0x080004c4                EXTI1_IRQHandler
+                0x080004c4                COMP4_5_6_IRQHandler
+                0x080004c4                I2C2_ER_IRQHandler
+                0x080004c4                DMA1_Channel2_IRQHandler
+                0x080004c4                TIM8_BRK_IRQHandler
+                0x080004c4                CAN1_SCE_IRQHandler
+                0x080004c4                FLASH_IRQHandler
+                0x080004c4                BusFault_Handler
+                0x080004c4                USART1_IRQHandler
+                0x080004c4                SPI3_IRQHandler
+                0x080004c4                I2C1_ER_IRQHandler
+                0x080004c4                USBWakeUp_IRQHandler
+                0x080004c4                DMA2_Channel3_IRQHandler
+                0x080004c4                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x080004c6        0x2 
+ .text          0x080004c8      0x370 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+                0x080004c8                __aeabi_drsub
+                0x080004d0                __aeabi_dsub
+                0x080004d0                __subdf3
+                0x080004d4                __aeabi_dadd
+                0x080004d4                __adddf3
+                0x0800074c                __floatunsidf
+                0x0800074c                __aeabi_ui2d
+                0x0800076c                __floatsidf
+                0x0800076c                __aeabi_i2d
+                0x08000790                __aeabi_f2d
+                0x08000790                __extendsfdf2
+                0x080007cc                __floatundidf
+                0x080007cc                __aeabi_ul2d
+                0x080007dc                __floatdidf
+                0x080007dc                __aeabi_l2d
+ .text          0x08000838      0x424 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+                0x08000838                __aeabi_dmul
+                0x08000838                __muldf3
+                0x08000a8c                __divdf3
+                0x08000a8c                __aeabi_ddiv
+ .text          0x08000c5c       0x40 d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+                0x08000c5c                __aeabi_d2uiz
+                0x08000c5c                __fixunsdfsi
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ *(.eh_fram e*)
+
+.glue_7         0x08000c9c        0x0
+ .glue_7        0x08000c9c        0x0 linker stubs
+
+.glue_7t        0x08000c9c        0x0
+ .glue_7t       0x08000c9c        0x0 linker stubs
+
+.vfp11_veneer   0x08000c9c        0x0
+ .vfp11_veneer  0x08000c9c        0x0 linker stubs
+
+.v4_bx          0x08000c9c        0x0
+ .v4_bx         0x08000c9c        0x0 linker stubs
+
+.iplt           0x08000c9c        0x0
+ .iplt          0x08000c9c        0x0 ..\obj\main.o
+
+.rel.dyn        0x08000c9c        0x0
+ .rel.iplt      0x08000c9c        0x0 ..\obj\main.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000c9c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08000c9c                __exidx_end = .
+                0x08000c9c                __etext = .
+                0x08000c9c                _sidata = __etext
+
+.data           0x20000000        0x0 load address 0x08000c9c
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end, .)
+                0x20000000                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __data_end__ = .
+                0x20000000                _edata = __data_end__
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 ..\obj\main.o
+
+.bss            0x20000000        0x4
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __bss_start__ = .
+                0x20000000                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000000        0x1 ..\obj\main.o
+                0x20000000                count
+ *(COMMON)
+                0x20000004                . = ALIGN (0x4)
+ *fill*         0x20000001        0x3 
+                0x20000004                __bss_end__ = .
+                0x20000004                _ebss = __bss_end__
+
+.heap           0x20000004        0x0
+                0x20000004                __end__ = .
+                0x20000004                _end = __end__
+                0x20000004                end = __end__
+ *(.heap*)
+                0x20000004                __HeapLimit = .
+
+.co_stack       0x20000004        0x4
+                0x20000008                . = ALIGN (0x8)
+ *fill*         0x20000004        0x4 
+ *(.co_stack .co_stack.*)
+                0x2000a000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
+                0x20009ffc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                [!provide]                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\main.o
+LOAD ..\obj\system_stm32f30x_temp.o
+LOAD ..\obj\startup_stm32f30x.o
+START GROUP
+LOAD d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a
+LOAD d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a
+LOAD d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7e-m\libc.a
+END GROUP
+OUTPUT(USART2.elf elf32-littlearm)
+
+.debug_info     0x00000000      0xc4b
+ .debug_info    0x00000000      0x700 ..\obj\main.o
+ .debug_info    0x00000700      0x4bb ..\obj\system_stm32f30x_temp.o
+ .debug_info    0x00000bbb       0x90 ..\obj\startup_stm32f30x.o
+
+.debug_abbrev   0x00000000      0x2d8
+ .debug_abbrev  0x00000000      0x17f ..\obj\main.o
+ .debug_abbrev  0x0000017f      0x147 ..\obj\system_stm32f30x_temp.o
+ .debug_abbrev  0x000002c6       0x12 ..\obj\startup_stm32f30x.o
+
+.debug_aranges  0x00000000       0x90
+ .debug_aranges
+                0x00000000       0x38 ..\obj\main.o
+ .debug_aranges
+                0x00000038       0x30 ..\obj\system_stm32f30x_temp.o
+ .debug_aranges
+                0x00000068       0x28 ..\obj\startup_stm32f30x.o
+
+.debug_ranges   0x00000000       0x68
+ .debug_ranges  0x00000000       0x28 ..\obj\main.o
+ .debug_ranges  0x00000028       0x20 ..\obj\system_stm32f30x_temp.o
+ .debug_ranges  0x00000048       0x20 ..\obj\startup_stm32f30x.o
+
+.debug_line     0x00000000      0x3bd
+ .debug_line    0x00000000      0x18c ..\obj\main.o
+ .debug_line    0x0000018c      0x195 ..\obj\system_stm32f30x_temp.o
+ .debug_line    0x00000321       0x9c ..\obj\startup_stm32f30x.o
+
+.debug_str      0x00000000      0x7ca
+ .debug_str     0x00000000      0x68e ..\obj\main.o
+                                0x6e9 (size before relaxing)
+ .debug_str     0x0000068e      0x13c ..\obj\system_stm32f30x_temp.o
+                                0x306 (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ..\obj\main.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ..\obj\system_stm32f30x_temp.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\main.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\system_stm32f30x_temp.o
+ .ARM.attributes
+                0x00000066       0x21 ..\obj\startup_stm32f30x.o
+ .ARM.attributes
+                0x00000087       0x1e d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000000a5       0x1e d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000000c3       0x1e d:/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/armv7e-m\libgcc.a(_arm_fixunsdfsi.o)
+
+.debug_frame    0x00000000      0x110
+ .debug_frame   0x00000000       0x94 ..\obj\main.o
+ .debug_frame   0x00000094       0x7c ..\obj\system_stm32f30x_temp.o

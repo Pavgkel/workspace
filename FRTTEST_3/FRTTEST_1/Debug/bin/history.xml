@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=FRTTEST_1.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\FRTTEST_1 -TD:\CoIDE\configuration\ProgramData\FRTTEST_1/arm-gcc-link.ld -g">
+      <target file="FRTTEST_1.elf" lastModified="19063041f28">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="19062ee81c8"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="19062ee82c3"/>
+         <source file="..\obj\main.o" lastModified="19063033de2"/>
+         <source file="..\obj\timers.o" lastModified="19062fa3cb0"/>
+         <source file="..\obj\tasks.o" lastModified="19062fa3f71"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="19062ee8941"/>
+         <source file="..\obj\list.o" lastModified="19062fa40b1"/>
+         <source file="..\obj\port.o" lastModified="19062fa41ba"/>
+         <source file="..\obj\queue.o" lastModified="19062fa43a7"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="19062ee8e26"/>
+         <source file="..\obj\stream_buffer.o" lastModified="19062fa4bfd"/>
+         <source file="..\obj\croutine.o" lastModified="19062fa4d0b"/>
+         <source file="..\obj\event_groups.o" lastModified="19062fa4e5d"/>
+         <source file="..\obj\heap_2.o" lastModified="19062fa4f8d"/>
+      </target>
+   </processor>
+</history>

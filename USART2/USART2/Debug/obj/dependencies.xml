@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\USART2\cmsis_boot /I..\..\..\workspace /I..\..\..\workspace\USART2\cmsis /I..\..\..\workspace\USART2">
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1903e8aebc2">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="1903e8ae388">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="1903e8ae3c7">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="1903e8aebbc">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="1903e8ae79a">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="1903e8ae7d2">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="1903e8ae3dd">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1903e8aebbf">
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Reg2Mem.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\Reg2Mem -TD:\CoIDE\configuration\ProgramData\Reg2Mem/arm-gcc-link.ld -g">
+      <target file="Reg2Mem.elf" lastModified="19074391cb9">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="19074330343"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="19074330b09"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="19074330c23"/>
+         <source file="..\obj\main.o" lastModified="19074391a09"/>
+         <source file="..\obj\stm32f30x_dma.o" lastModified="19074330f8e"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="19074331078"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="190743310e9"/>
+      </target>
+   </processor>
+</history>

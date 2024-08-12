@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=ADC2.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\ADC2 -TD:\CoIDE\configuration\ProgramData\ADC2/arm-gcc-link.ld -g">
+      <target file="ADC2.elf" lastModified="18ff6f19b0c">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18ff6e20bc4"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="18ff6e20d41"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18ff6e20e2f"/>
+         <source file="..\obj\main.o" lastModified="18ff6f1984d"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18ff6e20ff3"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="18ff6e210ca"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="18ff6e212de"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18ff6e21371"/>
+      </target>
+   </processor>
+</history>

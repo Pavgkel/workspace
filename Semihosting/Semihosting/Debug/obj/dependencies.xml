@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\Semihosting\cmsis /I..\..\..\workspace\Semihosting\cmsis_boot /I..\..\..\workspace /I..\..\..\workspace\Semihosting /I..\..\..\workspace\Semihosting\Semihosting">
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18fae909c79">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="18fae90ef81">
+      </source>
+      <source file="..\..\sh_cmd.s" lastModified="18fae90e749">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="18fae90a45c">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="18fae90a45e">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="18fae90f770">
+      </source>
+      <source file="..\..\..\main.c" lastModified="18fae95a81d">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18fae909c76">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="18fae90a06f">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\semihosting.h" lastModified="18fae90e746">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="18fae90a05c">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="18fae90a45a">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18fae909c6f">
+      </source>
+      <source file="..\..\semihosting.c" lastModified="18fae90ef14">
+         <include file="..\..\semihosting.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=USART1.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\USART1 -TD:\CoIDE\configuration\ProgramData\USART1/arm-gcc-link.ld -g">
+      <target file="USART1.elf" lastModified="19031399ed1">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="19031209024"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="19031209120"/>
+         <source file="..\obj\main.o" lastModified="19031399be7"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="190312092dc"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="190312093d7"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="19031209445"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="19031209595"/>
+      </target>
+   </processor>
+</history>

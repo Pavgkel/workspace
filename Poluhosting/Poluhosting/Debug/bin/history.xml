@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Poluhosting.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\Poluhosting -TD:\CoIDE\configuration\ProgramData\Poluhosting/arm-gcc-link.ld -g">
+      <target file="Poluhosting.elf" lastModified="18faebfe178">
+         <source file="..\obj\semihosting.o" lastModified="18faebfd7cf"/>
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18faebfd921"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18faebfda0e"/>
+         <source file="..\obj\main.o" lastModified="18faebfdae3"/>
+         <source file="..\obj\printf.o" lastModified="18faebfdbfe"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18faebfdcd5"/>
+         <source file="..\obj\sh_cmd.o" lastModified="18faebfdd00"/>
+         <source file="..\obj\syscalls.o" lastModified="18faebfdde6"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18faebfde47"/>
+      </target>
+   </processor>
+</history>

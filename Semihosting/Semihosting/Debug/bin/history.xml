@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Semihosting.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\Semihosting -TD:\CoIDE\configuration\ProgramData\Semihosting/arm-gcc-link.ld -g">
+      <target file="Semihosting.elf" lastModified="18fae9e6efc">
+         <source file="..\obj\semihosting.o" lastModified="18fae9615c6"/>
+         <source file="..\obj\main.o" lastModified="18fae9616ba"/>
+         <source file="..\obj\printf.o" lastModified="18fae961817"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18fae9618e4"/>
+         <source file="..\obj\sh_cmd.o" lastModified="18fae96190d"/>
+         <source file="..\obj\syscalls.o" lastModified="18fae9619f8"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18fae961a5e"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\Poluhosting\cmsis_boot -I..\..\..\workspace\Poluhosting -I..\..\..\workspace\Poluhosting\semihosting -I..\..\..\workspace\Poluhosting\cmsis -I..\..\..\workspace -I..\..\..\workspace\Poluhosting\cmsis_lib\include -I..\..\..\workspace\Poluhosting\cmsis_lib">
+      <target file="syscalls.o" lastModified="18faebfdde6">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="18faeb17224"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="18faebfde47">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18faeae6460"/>
+      </target>
+      <target file="printf.o" lastModified="18faebfdbfe">
+         <source file="..\..\..\stdio\printf.c" lastModified="18faeae8605"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="18faebfd921">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18faeae6453"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="18faebfda0e">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18faeae6a85"/>
+      </target>
+      <target file="main.o" lastModified="18faebfdae3">
+         <source file="..\..\..\main.c" lastModified="18faeaece5f"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="18faebfdd00">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="18faeae85f9"/>
+      </target>
+      <target file="semihosting.o" lastModified="18faebfd7cf">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="18faeae85f7"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="18faebfdcd5">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18faeae6465"/>
+      </target>
+   </processor>
+</history>

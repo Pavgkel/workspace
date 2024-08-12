@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\Reg2Mem -I..\..\..\workspace\Reg2Mem\cmsis_boot -I..\..\..\workspace\Reg2Mem\cmsis -I..\..\..\workspace -I..\..\..\workspace\Reg2Mem\cmsis_lib -I..\..\..\workspace\Reg2Mem\cmsis_lib\include">
+      <target file="stm32f30x_gpio.o" lastModified="19074330c23">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="1907430b36e"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="190743310e9">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="1907430b38f"/>
+      </target>
+      <target file="stm32f30x_dma.o" lastModified="19074330f8e">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="1907430dda9"/>
+      </target>
+      <target file="stm32f30x_adc.o" lastModified="19074330b09">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="1907430c414"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="19074331078">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="1907430b39c"/>
+      </target>
+      <target file="main.o" lastModified="19074391a09">
+         <source file="..\..\..\main.c" lastModified="1907439138d"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="19074330343">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="1907430b384"/>
+      </target>
+   </processor>
+</history>

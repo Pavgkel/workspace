@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=RCC-PWM.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\RCC-PWM -TD:\CoIDE\configuration\ProgramData\RCC-PWM/arm-gcc-link.ld -g">
+      <target file="RCC-PWM.elf" lastModified="19073ff1189">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18fd2c0898b"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18fd2c08d84"/>
+         <source file="..\obj\main.o" lastModified="19073ff0eb9"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18fd2c08e8f"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="18fd2c08f29"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="18fd2c0909e"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18fd2c090dd"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=DMA1.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\DMA1 -TD:\CoIDE\configuration\ProgramData\DMA1/arm-gcc-link.ld -g">
+      <target file="DMA1.elf" lastModified="18ff64719c2">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18fe9066003"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18fe90660ee"/>
+         <source file="..\obj\main.o" lastModified="18ff6471534"/>
+         <source file="..\obj\stm32f30x_dma.o" lastModified="18fe906635e"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18fe906644e"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18fe90664c8"/>
+      </target>
+   </processor>
+</history>

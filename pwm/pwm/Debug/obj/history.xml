@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -D__FPU_USED -I..\..\..\workspace\pwm\cmsis_lib\include -I..\..\..\workspace\pwm\cmsis -I..\..\..\workspace -I..\..\..\workspace\pwm\cmsis_lib -I..\..\..\workspace\pwm\cmsis_boot -I..\..\..\workspace\pwm">
+      <target file="stm32f30x_gpio.o" lastModified="18fae607710">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18fae256d11"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="18fae607997">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18fae256b85"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="18fae607936">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18fae256be3"/>
+      </target>
+      <target file="main.o" lastModified="19001c38b3c">
+         <source file="..\..\..\main.c" lastModified="19001c384e3"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="18fae60760b">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18fae256b4b"/>
+      </target>
+   </processor>
+</history>

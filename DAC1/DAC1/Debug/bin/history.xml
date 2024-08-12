@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=DAC1.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\ADC1 -TD:\CoIDE\configuration\ProgramData\ADC1/arm-gcc-link.ld -g">
+      <target file="DAC1.elf" lastModified="1912297e21a">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18ff6bac3ab"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="18ff6bac53e"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18ff6bac646"/>
+         <source file="..\obj\main.o" lastModified="1912297def0"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18ff6bac7cf"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18ff6bac835"/>
+      </target>
+   </processor>
+</history>

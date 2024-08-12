@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\Poluhosting\cmsis_boot /I..\..\..\workspace\Poluhosting /I..\..\..\workspace\Poluhosting\semihosting /I..\..\..\workspace\Poluhosting\cmsis /I..\..\..\workspace /I..\..\..\workspace\Poluhosting\cmsis_lib\include /I..\..\..\workspace\Poluhosting\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="18faeae6451">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="18faeae6856">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="18faeae6c44">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="18faeae684b">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18faeae6a84">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="18faeae8dd5">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="18faeb181c4">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18faeae6465">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="18faeae85f8">
+      </source>
+      <source file="..\..\..\main.c" lastModified="18faeaece5f">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="18faeae6c42">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18faeae6460">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="18faeae85f9">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="18faeae8dc7">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18faeae6a85">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18faeae6453">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="18faeae6c40">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18faeae6464">
+      </source>
+   </includePath>
+</dependencies>

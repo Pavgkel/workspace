@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 12.2.0 x86_64-w64-mingw32 -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\PWM-Timer\cmsis_lib\include -I..\..\..\workspace\PWM-Timer\cmsis_lib -I..\..\..\workspace\PWM-Timer -I..\..\..\workspace\PWM-Timer\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\PWM-Timer\cmsis">
+      <target file="stm32f30x_gpio.o" lastModified="19073f21309">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18fde706384"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="19073f21800">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18fde7063f2"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="19073f214b7">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18fde706426"/>
+      </target>
+      <target file="stm32f30x_misc.o" lastModified="19073f2158e">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18fde7c759d"/>
+      </target>
+      <target file="stm32f30x_tim.o" lastModified="19073f21798">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18fde709334"/>
+      </target>
+      <target file="main.o" lastModified="19073f256c3">
+         <source file="..\..\..\main.c" lastModified="19073f250a5"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="19073f2121a">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18fde707fda"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=clocking.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\clocking -TD:\CoIDE\configuration\ProgramData\clocking/arm-gcc-link.ld -g">
+      <target file="clocking.elf" lastModified="19074633b01">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="19074625c5a"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="19074625d4c"/>
+         <source file="..\obj\main.o" lastModified="190746337f8"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="19074625f5f"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="1907462603a"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="1907462624e"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="190746262cc"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=button.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\button -TD:\CoIDE\configuration\ProgramData\button/arm-gcc-link.ld -g">
+      <target file="button.elf" lastModified="19001b09e35">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18fb04582fd"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18fb04583fa"/>
+         <source file="..\obj\main.o" lastModified="19001b09b98"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18fb04585e2"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18fb0458652"/>
+      </target>
+   </processor>
+</history>
