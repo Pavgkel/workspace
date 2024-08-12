@@ -291,8 +291,8 @@ void adc_init(void)
 	GPIO_InitTypeDef GPIO_InitStructure;
 	// input of ADC (it doesn't seem to be needed, as default GPIO state is floating input)
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AN;
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1; // that's ADC1 (PB1 on STM32)
-	GPIO_Init(GPIOB, &GPIO_InitStructure);
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0; // that's ADC1 (PB1 on STM32)
+	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
 	//clock for ADC (max 14MHz --> 72/6=12MHz)
 	RCC_ADCCLKConfig(RCC_ADC12PLLCLK_Div6);

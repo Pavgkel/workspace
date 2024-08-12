@@ -17,6 +17,11 @@
       <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18ff6ab2bde">
          <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
       </source>
+      <source file="..\..\..\main.c" lastModified="1912297d857">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
       <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18ff6ab2c2c">
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18ff6ab2b7a">

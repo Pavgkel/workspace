@@ -33,7 +33,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CoIDE/workspace/BLDC_control_motor/main.c" title="main.c" tooltip="D:/CoIDE/workspace/BLDC_control_motor/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BLDC_control_motor/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5640" selectionTopPixel="3680"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8325" selectionTopPixel="3680"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_adc.h" partName="stm32f30x_adc.h" path="D:/CoIDE/workspace/BLDC_control_motor/cmsis_lib/include/stm32f30x_adc.h" title="stm32f30x_adc.h" tooltip="D:/CoIDE/workspace/BLDC_control_motor/cmsis_lib/include/stm32f30x_adc.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BLDC_control_motor/cmsis_lib/include/stm32f30x_adc.h"/>
@@ -442,6 +442,12 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_rcc.h" tooltip="ADC1/cmsis_lib/include/stm32f30x_rcc.h">
+<persistable path="/ADC1/cmsis_lib/include/stm32f30x_rcc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x.h" tooltip="ADC1/cmsis_boot/stm32f30x.h">
+<persistable path="/ADC1/cmsis_boot/stm32f30x.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x.h" tooltip="BLDC_control_motor/cmsis_boot/stm32f30x.h">
 <persistable path="/BLDC_control_motor/cmsis_boot/stm32f30x.h"/>
 </file>
@@ -477,12 +483,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_gpio.c" tooltip="BLDC_control_motor/cmsis_lib/source/stm32f30x_gpio.c">
 <persistable path="/BLDC_control_motor/cmsis_lib/source/stm32f30x_gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="D:\CoIDE\workspace\BLDC_control_motor\main.c">
-<persistable uri="file:/D:/CoIDE/workspace/BLDC_control_motor/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="definitions.h" tooltip="11/stm_lib/inc/definitions.h">
-<persistable path="/11/stm_lib/inc/definitions.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="definitions.h" tooltip="11/stm_lib/inc/definitions.h">
 <persistable path="/11/stm_lib/inc/definitions.h"/>

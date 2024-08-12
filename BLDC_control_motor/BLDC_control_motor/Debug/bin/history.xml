@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="5.3.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=BLDC_control_motor.map -O0 --gc-sections -LD:\CoIDE\configuration\ProgramData\BLDC_control_motor -TD:\CoIDE\configuration\ProgramData\BLDC_control_motor/arm-gcc-link.ld -g">
-      <target file="BLDC_control_motor.elf" lastModified="1911dd1ec46">
+      <target file="BLDC_control_motor.elf" lastModified="19146766b8a">
          <source file="..\obj\stm32f30x_rcc.o" lastModified="1907d8a7dbd"/>
          <source file="..\obj\stm32f30x_adc.o" lastModified="1907d8a7f85"/>
          <source file="..\obj\stm32f30x_gpio.o" lastModified="1907d8a8077"/>
-         <source file="..\obj\main.o" lastModified="1911dd1e96b"/>
+         <source file="..\obj\main.o" lastModified="19146766948"/>
          <source file="..\obj\stm32f30x_dma.o" lastModified="1907d8a8213"/>
          <source file="..\obj\printf.o" lastModified="1907e371d65"/>
          <source file="..\obj\stm32f30x_exti.o" lastModified="1907d8a830f"/>

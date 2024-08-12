@@ -27,7 +27,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CoIDE/workspace/DAC1/main.c" title="main.c" tooltip="D:/CoIDE/workspace/DAC1/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ADC1/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="581" selectionTopPixel="343"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="765" selectionTopPixel="343"/>
 </editor>
 </editors>
 <views>
